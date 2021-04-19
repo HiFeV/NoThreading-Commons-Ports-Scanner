@@ -1,3 +1,4 @@
+#Autor: HiFeV
 import socket
 
 host = input('Target to scan: ')
