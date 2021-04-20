@@ -2,7 +2,6 @@
 import socket
 
 host = input('Target to scan: ')
-ip_res = socket.gethostbyname(host)
 
 scanned_ports = [20, 21, 22, 23, 25, 53, 80, 110, 119, 123, 143, 161, 194, 443]
 for port in scanned_ports:
