@@ -1,7 +1,11 @@
 #Autor: HiFeV
 import socket
+import sys
 
-host = input('Target to scan: ')
+if len(sys.argv) > 1:
+	host = sys.argv[1]
+else:
+ 	host = input('Target to scan: ')
 
 scanned_ports = [20, 21, 22, 23, 25, 53, 80, 110, 119, 123, 143, 161, 194, 443]
 for port in scanned_ports:
