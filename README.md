@@ -1,4 +1,9 @@
 # NoThreading-Commons-Ports-Scanner
 Simple PortScanner
-
-usage: python scan.py
+\n
+\usage: python scan.py
+\n
+OR
+\n
+\usage: python scan.py <host>
+\n
